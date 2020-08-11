@@ -15,11 +15,8 @@ from PIL import Image
 import xml.etree.ElementTree as ET
 import streamlit as st
 import pandas as pd
-import numpy as np
-import io 
-import os
 import base64
-taxsample = Image.open('C:/Users/marte/OneDrive/Business/Taxsample/TaxSample-logo.png')
+taxsample = Image.open('TaxSample-logo.png')
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
